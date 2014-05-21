@@ -1,0 +1,206 @@
+
+/* ==========================================================================
+  Minimum Width Screen
+============================================================================= */
+
+@media (max-width: 992px) {
+
+  /* ==========================================================================
+    Splash
+  ============================================================================= */
+
+  .splash-text .splash-headline{
+    font-size: 25px;
+    padding: 30px 0;
+  }
+  .splash-text .splash-description p{
+    font-size: 20px;
+  }
+
+  .splash-text a.splash-button{
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+
+  /* ==========================================================================
+    Typography
+  ============================================================================= */
+
+ h2.heading-title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    background: url('../img/title-line.png') no-repeat left bottom;
+  }
+  p.description{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #606060;
+  }
+
+  /* ==========================================================================
+    Team
+  ============================================================================= */
+
+  .team-item-center-content h3{
+    text-align: center;
+  }
+
+  .team-item-center-content ul.team-socialicon{
+    float: none;
+    display: block;
+    width: 180px;
+    margin: 30px auto 10px;
+  }
+
+
+  /* ==========================================================================
+    Gallery
+  ============================================================================= */
+  .gallery ul.gallery-items li{
+    width: 50%;
+  }
+
+  /* ==========================================================================
+    Top Header
+  ============================================================================= */
+  .top-header .logo-header{
+    margin-top: 25px;
+    text-align: center;
+  }
+  .top-header .menu-collaps-dark{
+    display: block;
+    float: none;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 640px) {
+  
+  /* ==========================================================================
+    Menu
+  ============================================================================= */
+
+  #nav-menu{
+    right: -180px;
+    width: 160px ;
+    background: #303133;
+  }
+  nav{
+    width: 160px;
+  }
+   
+  .cbp-spmenu-push-toleft {
+      left: -160px;
+  }
+
+  ul.menu li a{
+    font-size: 14px;
+  }
+
+  ul.social-menu{
+    height: 50px;
+    margin: 0 0 0px 10px;
+  }
+
+  ul.social-menu li{
+    width: 30px;
+    height: 30px;
+  }
+
+  ul.social-menu li a {
+    font-size: 14px;
+  }
+
+  #nav-menu nav{
+    height: calc(100% - 140px);
+    height: -webkit-calc(100% - 140px);
+    height: -moz-calc(100% - 140px);
+  }
+
+
+  .logo-header {
+    margin-top: 0px;
+    height: 50px;
+  }
+
+  .site-splash .logo-header a.logo {
+    margin-top: 10px;
+    width: 160px;
+  }
+
+  a.menu-collaps {
+    width: 36px;
+    height: 49px;
+    background-size: 25px;
+  }
+
+  .splash-text .splash-headline {
+    font-size: 16px;
+    padding: 20px 0;
+    margin: 0 0 15px 0;
+  }
+
+  .splash-text .splash-description p {
+    font-size: 16px;
+  }
+
+  .splash-text a.splash-button {
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+
+  .splash-feedback .mouse {
+    width: 28px;
+    height: 39px;
+    border-radius: 13px;
+    margin: 0 auto 6px;
+  }
+  .splash-feedback .mouse .fa, .splash-feedback .mouse .gi {
+    line-height: 39px;
+  }
+
+  .splash-feedback {
+    bottom: 10px;
+  }
+
+  /* ==========================================================================
+    Gallery
+  ============================================================================= */
+
+  .gallery ul.gallery-items li{
+    width: 100%;
+  }
+
+  /* ==========================================================================
+    Single Page
+  ============================================================================= */
+
+  .meta-info .meta-date{
+    width: 100%;
+  }
+
+  .meta-info .meta-title{
+    text-align: center;
+    width: 100%;
+  }
+
+  .meta-info .meta-title ul{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ==========================================================================
+    Single Page
+  ============================================================================= */
+  .comment-section > ul ul.child{
+    padding: 0;
+  }
+}
