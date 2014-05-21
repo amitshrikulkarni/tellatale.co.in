@@ -182,7 +182,7 @@
 				var navigation = $('#nav-menu'),
 					$this	   = $(this);
 
-				$('body').toggleClass('cbp-spmenu-push-toleft');
+				$('body').toggleClass('cbp-spmenu-push');
 				navigation.toggleClass('cbp-spmenu-open');
 				$this.hide();
 			});
@@ -194,7 +194,7 @@
 
 				$this.closest('#nav-menu').toggleClass('cbp-spmenu-open');
 				$mcollaps.show();
-				$('body').toggleClass('cbp-spmenu-push-toleft');
+				$('body').toggleClass('cbp-spmenu-push');
 
 
 			});	
