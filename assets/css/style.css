@@ -536,17 +536,16 @@ img {
   margin: 0;
   font-size: 25px;
   color: #fff;
-  font-weight: 100;
+  line-height: 1.5;
 }
 .splash-text .splash-headline {
-  font-size: 35px;
+  font-size: 40px;
   font-family: 'Roboto Slab', serif;
   padding: 50px 0;
   background: url(../img/headline-border.png) no-repeat center bottom;
   color: #fff;
   margin: 0 0 30px 0;
   line-height: 1;
-  text-transform: uppercase;
   font-weight: 700;
 }
 /* ==========================================================================
@@ -3499,4 +3498,15 @@ div.price-table .price-content a.buy-button:hover{
   75% {
     opacity: 0;
   }
+}
+
+.overlay {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.1);
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUAQMAAAC3R49OAAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMAmf9A5tgAAAARSURBVAjXY1i1agEDEFCLBgA1MROJWXE8mAAAAABJRU5ErkJggg==');
 }

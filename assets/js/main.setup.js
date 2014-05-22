@@ -160,7 +160,7 @@
 
 			if($.fn.revolution){
 				$('.tp-banner').revolution({
-						delay:9000,
+						delay:6000,
 						startwidth:1170,
 						startheight:500,
 						fullWidth:"off",
